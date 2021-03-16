@@ -37,7 +37,7 @@
 </h3>
 <ul>
   <li>
-    <strong>Out of Scope</strong>
+    <strong>Out of Scope. Uns interessiert, was zur Migration auf eine höhere Version nötig ist und nicht die Mindestversion, unter der das Projekt lauffähig ist. Des weiteren ist das Einbinden einer Library mit zu viel Arbeit verbunden.</strong>
   </li>
 </ul>
 <h2>Beispieloutput:</h2>
