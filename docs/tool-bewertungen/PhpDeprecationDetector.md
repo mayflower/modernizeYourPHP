@@ -40,7 +40,8 @@
 </p>
 <h2>Rating:</h2>
 <h3>
-  <strong>4/5 "Amazonsterne"</strong>
+  <span style="color: rgb(255,153,0);">★★</span>
+  <span style="color: rgb(255,153,0);">★★</span>☆<strong> "Amazonsterne"</strong>
 </h3>
 <ul>
   <li>
@@ -48,11 +49,9 @@
     </strong>
   </li>
 </ul>
-<p>
-  <br/>
-</p>
 <h2>Beispieloutput:</h2>
-```diff
+
+```bash
 - PHP 5.3 (20) - your version is greater or equal
 +-----------------------------------------------+---------+---------------------------------------------------------------------+
 | File:Line                                     | Type    | Issue                                                               |

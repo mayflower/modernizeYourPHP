@@ -41,7 +41,8 @@
 </p>
 <h2>Rating:</h2>
 <h3>
-  <strong>4.5/5 "Amazonsterne"<br/>
+  <strong>
+    <span style="color: rgb(255,153,0);">★★★★★</span> "Amazonsterne"<br/>
   </strong>
 </h3>
 <ul>
@@ -50,7 +51,8 @@
   </li>
 </ul>
 <h2>Beispieloutput:</h2>
-```
+
+```php
 FILE: /home/alexander/Code/php-update/wp-docker/wp-root/wp-admin/includes/class-ftp.php
 ----------------------------------------------------------------------------------------------------------------------------------------------
 FOUND 10 ERRORS AND 4 WARNINGS AFFECTING 9 LINES
@@ -72,4 +74,5 @@ FOUND 10 ERRORS AND 4 WARNINGS AFFECTING 9 LINES
 ----------------------------------------------------------------------------------------------------------------------------------------------
 PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
 ----------------------------------------------------------------------------------------------------------------------------------------------
+
 ```

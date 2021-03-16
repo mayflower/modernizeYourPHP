@@ -46,7 +46,7 @@
 </p>
 <h2>Rating:</h2>
 <h3>
-  <strong>2/5 "Amazonsterne"<br/>
+  <strong>★★☆☆☆ "Amazonsterne"<br/>
   </strong>
 </h3>
 <ul>
@@ -58,9 +58,7 @@
   <br/>
 </p>
 <h2>Beispieloutput:</h2>
-<p>
-  <br/>
-</p>
+
 ```diff
 1 file with changes
 ===================

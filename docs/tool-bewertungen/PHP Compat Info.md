@@ -27,9 +27,12 @@
   <li>Library, muss also durch eigenen PHP-Code aufgerufen werden.</li>
   <li>Prüft nur mit welcher Version etwas ausgeführt werden kann.</li>
 </ul>
+<p>
+  <br/>
+</p>
 <h2>Rating:</h2>
 <h3>
-  <strong>N/A "Amazonsterne"<br/>
+  <strong>N/A<br/>
   </strong>
 </h3>
 <ul>

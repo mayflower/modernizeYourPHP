@@ -35,16 +35,12 @@
 </p>
 <h2>Rating:</h2>
 <h3>
-  <strong>2/5 "Amazonsterne"</strong>
+  <strong>
+    <span style="color: rgb(255,153,0);">★★</span>☆☆☆ "Amazonsterne"</strong>
 </h3>
-<p>
-  <br/>
-</p>
 <h2>Beispieloutput:</h2>
-<p>
-  <br/>
-</p>
-```
+
+```php
 ➜  WordPress git:(VeryOld) ✗ vendor/phpstan/phpstan/phpstan analyze .            
 Note: Using configuration file /home/eric/Downloads/WordPress/phpstan.neon.
  2392/2392 [▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓] 100%
