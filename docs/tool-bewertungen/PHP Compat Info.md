@@ -10,9 +10,7 @@
 </ul>
 <h2>Angewendet auf:</h2>
 <ul>
-  <li>Wordpress 4.2.4 (PHP-Version 5.4) (<a href="https://github.com/WordPress/WordPress/commit/a4279152fcf286da771777580e1da93a626fb11a">https://github.com/WordPress/WordPress/commit/a4279152fcf286da771777580e1da93a626fb11a</a>
-    <span>)</span>
-  </li>
+  <li>n/a</li>
 </ul>
 <h2>Was wurde getestet:</h2>
 <ul>

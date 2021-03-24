@@ -15,8 +15,9 @@
 </ul>
 <h2>Angewendet auf:</h2>
 <ul>
-  <li>Wordpress 4.2.4 (PHP-Version 5.4) (<a href="https://github.com/WordPress/WordPress/commit/a4279152fcf286da771777580e1da93a626fb11a">https://github.com/WordPress/WordPress/commit/a4279152fcf286da771777580e1da93a626fb11a</a>
-    <span>)</span>
+  <li>Wordpress 4.2.4 (PHP-Version 5.4) (<a href="https://github.com/WordPress/WordPress/commit/a4279152fcf286da771777580e1da93a626fb11a">https://github.com/WordPress/WordPress/commit/a4279152fcf286da771777580e1da93a626fb11a</a>)</li>
+  <li>
+    <span>Wallabag 2.0.0-beta.1 (PHP-Version 5.6) (<a href="https://github.com/wallabag/wallabag/tree/94314e14eeeef7c43365a9fddbece04aec7173e3">https://github.com/wallabag/wallabag/tree/94314e14eeeef7c43365a9fddbece04aec7173e3</a>)</span>
   </li>
 </ul>
 <h2>Was wurde getestet:</h2>
@@ -30,6 +31,7 @@
   <li>Etwas komplizierter aufzusetzen (<a href="https://github.com/Dealerdirect/phpcodesniffer-composer-installer">phpcodesniffer-composer-installer</a> hilft hier)</li>
   <li>Hat auch viele Regeln für PHP 8</li>
   <li>Hat einen Autofixer, der ca 80% der Issues automatisch fixen kann</li>
+  <li>Liefert ausschließlich wichtige Änderungen und lässt "verschönernde" Sprachkonstrukte außen vor</li>
 </ul>
 <h2>Bewertung:</h2>
 <ul>
@@ -41,8 +43,7 @@
 </p>
 <h2>Rating:</h2>
 <h3>
-  <strong>
-    <span style="color: rgb(255,153,0);">★★★★★</span> "Amazonsterne"<br/>
+  <strong> <span style="color: rgb(255,153,0);">★★★★★</span> "Amazonsterne"<br/>
   </strong>
 </h3>
 <ul>
@@ -50,7 +51,10 @@
     <strong>Tut was es soll. Definitiv der bessere PHPDeprecationDetector. Kann nicht alles autofixen (verspricht es auch nicht). Hat bisher am meisten sinnvolle Dinge gefunden. Installation etwas holprig.</strong>
   </li>
 </ul>
-<h2>Beispieloutput:</h2>
+<h2>
+  <ac:inline-comment-marker ac:ref="7e7c74f3-e803-4ee8-9984-f557794ddbb2">Beispieloutput</ac:inline-comment-marker>
+</h2>
+<h3>Wordpress:</h3>
 
 ```php
 FILE: /home/alexander/Code/php-update/wp-docker/wp-root/wp-admin/includes/class-ftp.php
@@ -74,5 +78,19 @@ FOUND 10 ERRORS AND 4 WARNINGS AFFECTING 9 LINES
 ----------------------------------------------------------------------------------------------------------------------------------------------
 PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
 ----------------------------------------------------------------------------------------------------------------------------------------------
+
+```
+<h3 class="auto-cursor-target">Wallabag:</h3>
+
+```php
+FILE: /home/alexander/Code/php-update/modernize4phpstack/exampleProject/wallabag/var/SymfonyRequirements.php
+------------------------------------------------------------------------------------------------------------
+FOUND 0 ERRORS AND 4 WARNINGS AFFECTING 4 LINES
+------------------------------------------------------------------------------------------------------------
+506 | WARNING | Function create_function() is deprecated since PHP 7.2; Use an anonymous function instead
+524 | WARNING | Function create_function() is deprecated since PHP 7.2; Use an anonymous function instead
+542 | WARNING | Function create_function() is deprecated since PHP 7.2; Use an anonymous function instead
+682 | WARNING | Function create_function() is deprecated since PHP 7.2; Use an anonymous function instead
+------------------------------------------------------------------------------------------------------------
 
 ```

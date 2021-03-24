@@ -14,7 +14,9 @@
 </ul>
 <h2>Angewendet auf:</h2>
 <ul>
-  <li>Wordpress 4.2.4 (PHP-Version 5.4) (<a class="external-link" href="https://github.com/WordPress/WordPress/commit/a4279152fcf286da771777580e1da93a626fb11a" rel="nofollow">https://github.com/WordPress/WordPress/commit/a4279152fcf286da771777580e1da93a626fb11a</a> <span>)</span>
+  <li>Wordpress 4.2.4 (PHP-Version 5.4) (<a class="external-link" href="https://github.com/WordPress/WordPress/commit/a4279152fcf286da771777580e1da93a626fb11a" rel="nofollow">https://github.com/WordPress/WordPress/commit/a4279152fcf286da771777580e1da93a626fb11a</a>)</li>
+  <li>
+    <span>Wallabag 2.0.0-beta.1 (PHP-Version 5.6) (<a href="https://github.com/wallabag/wallabag/tree/94314e14eeeef7c43365a9fddbece04aec7173e3">https://github.com/wallabag/wallabag/tree/94314e14eeeef7c43365a9fddbece04aec7173e3</a>)</span>
   </li>
 </ul>
 <h2>Was wurde getestet:</h2>
@@ -35,10 +37,10 @@
 </p>
 <h2>Rating:</h2>
 <h3>
-  <strong>
-    <span style="color: rgb(255,153,0);">★★</span>☆☆☆ "Amazonsterne"</strong>
+  <strong> <span style="color: rgb(255,153,0);">★★</span>☆☆☆ "Amazonsterne"</strong>
 </h3>
-<h2>Beispieloutput:</h2>
+<h2>Beispieloutput</h2>
+<h3>Wordpress:</h3>
 
 ```php
 ➜  WordPress git:(VeryOld) ✗ vendor/phpstan/phpstan/phpstan analyze .            
@@ -112,4 +114,27 @@ Note: Using configuration file /home/eric/Downloads/WordPress/phpstan.neon.
 
                                                                                                                         
  [ERROR] Found 26 errors                                                                                                
+```
+<h3 class="auto-cursor-target">Wallabag:</h3>
+
+```php
+ ------ ---------------------------------------------------------------------------------------- 
+Line Wallabag/CoreBundle/Helper/EntriesExport.php 
+------ ---------------------------------------------------------------------------------------- 
+180 Call to deprecated method create() of class Symfony\Component\HttpFoundation\Response: 
+since Symfony 5.1, use __construct() instead. 
+229 Call to deprecated method create() of class Symfony\Component\HttpFoundation\Response: 
+since Symfony 5.1, use __construct() instead. 
+284 Call to deprecated method create() of class Symfony\Component\HttpFoundation\Response: 
+since Symfony 5.1, use __construct() instead. 
+328 Call to deprecated method create() of class Symfony\Component\HttpFoundation\Response: 
+since Symfony 5.1, use __construct() instead. 
+341 Call to deprecated method create() of class Symfony\Component\HttpFoundation\Response: 
+since Symfony 5.1, use __construct() instead. 
+354 Call to deprecated method create() of class Symfony\Component\HttpFoundation\Response: 
+since Symfony 5.1, use __construct() instead. 
+374 Call to deprecated method create() of class Symfony\Component\HttpFoundation\Response: 
+since Symfony 5.1, use __construct() instead. 
+------ ---------------------------------------------------------------------------------------- 
+
 ```

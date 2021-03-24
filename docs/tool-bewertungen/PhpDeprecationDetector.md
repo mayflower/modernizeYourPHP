@@ -15,7 +15,9 @@
 </ul>
 <h2>Angewendet auf:</h2>
 <ul>
-  <li>Wordpress 4.2.4 (PHP-Version 5.4) (<a href="https://github.com/WordPress/WordPress/commit/a4279152fcf286da771777580e1da93a626fb11a">https://github.com/WordPress/WordPress/commit/a4279152fcf286da771777580e1da93a626fb11a</a> <span>)</span>
+  <li>Wordpress 4.2.4 (PHP-Version 5.4) (<a href="https://github.com/WordPress/WordPress/commit/a4279152fcf286da771777580e1da93a626fb11a">https://github.com/WordPress/WordPress/commit/a4279152fcf286da771777580e1da93a626fb11a</a>)</li>
+  <li>
+    <span>Wallabag 2.0.0-beta.1 (PHP-Version 5.6) (<a href="https://github.com/wallabag/wallabag/tree/94314e14eeeef7c43365a9fddbece04aec7173e3">https://github.com/wallabag/wallabag/tree/94314e14eeeef7c43365a9fddbece04aec7173e3</a>)</span>
   </li>
 </ul>
 <h2>Was wurde getestet:</h2>
@@ -40,8 +42,7 @@
 </p>
 <h2>Rating:</h2>
 <h3>
-  <span style="color: rgb(255,153,0);">★★</span>
-  <span style="color: rgb(255,153,0);">★★</span>☆<strong> "Amazonsterne"</strong>
+  <span style="color: rgb(255,153,0);">★★</span> <span style="color: rgb(255,153,0);">★★</span>☆<strong> "Amazonsterne"</strong>
 </h3>
 <ul>
   <li>
@@ -49,7 +50,8 @@
     </strong>
   </li>
 </ul>
-<h2>Beispieloutput:</h2>
+<h2>Beispieloutput</h2>
+<h3>Wordpress:</h3>
 
 ```bash
 - PHP 5.3 (20) - your version is greater or equal
@@ -90,4 +92,22 @@
 | /wp-includes/rss.php:107                      | removed | Function split() is removed.                                        |
 |                                               |         | Consider replace with preg_split()                                  |
 +-----------------------------------------------+---------+---------------------------------------------------------------------+
+```
+<h3 class="auto-cursor-target">Wallabag:</h3>
+
+```bash
+- PHP 7.2 (4) - your version is greater or equal
++----------------------------------+---------+----------------------------------------+
+| File:Line                        | Type    | Issue                                  |
++----------------------------------+---------+----------------------------------------+
+| /var/SymfonyRequirements.php:506 | removed | Function create_function() is removed. |
+| /var/SymfonyRequirements.php:524 | removed | Function create_function() is removed. |
+| /var/SymfonyRequirements.php:542 | removed | Function create_function() is removed. |
+| /var/SymfonyRequirements.php:682 | removed | Function create_function() is removed. |
++----------------------------------+---------+----------------------------------------+
+
+
+Total issues: 4
+Peak memory usage: 29.498 MB
+
 ```
