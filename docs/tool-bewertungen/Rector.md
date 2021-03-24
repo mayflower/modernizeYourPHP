@@ -18,7 +18,7 @@
 </ul>
 <h2>Angewendet auf:</h2>
 <ul>
-  <li>Wordpress 4.2.4 (PHP-Version 5.4) (<a href="https://github.com/WordPress/WordPress/commit/a4279152fcf286da771777580e1da93a626fb11a">https://github.com/WordPress/WordPress/commit/a4279152fcf286da771777580e1da93a626fb11a</a>)</li>
+  <li>WordPress 4.2.4 (PHP-Version 5.4) (<a href="https://github.com/WordPress/WordPress/commit/a4279152fcf286da771777580e1da93a626fb11a">https://github.com/WordPress/WordPress/commit/a4279152fcf286da771777580e1da93a626fb11a</a>)</li>
   <li>
     <span>Wallabag 2.0.0-beta.1 (PHP-Version 5.6) (<a href="https://github.com/wallabag/wallabag/tree/94314e14eeeef7c43365a9fddbece04aec7173e3">https://github.com/wallabag/wallabag/tree/94314e14eeeef7c43365a9fddbece04aec7173e3</a>)</span>
   </li>
@@ -33,7 +33,7 @@
   <li>War in der Lage einfache Veränderungen in Richtung Search/Replace durchzuführen</li>
   <li>Outputformat in JSON angeblich möglich, führte aber zu Fehlern</li>
   <li>War nicht-trivial zu konfigurieren, hat Autoloadfehler geworfen (obwohl es vorgibt ein statischer Codeanalysator zu sein), für die wir in der Timebox keine Lösung finden konnten</li>
-  <li>Vorgeschlagene Änderungen sahen auf den ersten Blick trivial aus. Das könnte allerdings an dem von uns ausgesuchtem Beispielprojekt liegen (alte Wordpress-Version)</li>
+  <li>Vorgeschlagene Änderungen sahen auf den ersten Blick trivial aus. Das könnte allerdings an dem von uns ausgesuchtem Beispielprojekt liegen (alte WordPress-Version)</li>
   <li>Feature Flags wurden nicht erkannt und falsch gerefactored</li>
 </ul>
 <h2>Bewertung:</h2>
@@ -88,7 +88,7 @@
 <h2>
   <ac:inline-comment-marker ac:ref="b3016897-ce22-4789-90b7-e9dd205bb461">Beispieloutput</ac:inline-comment-marker>
 </h2>
-<h3>Wordpress:</h3>
+<h3>WordPress:</h3>
 
 ```diff
 1 file with changes

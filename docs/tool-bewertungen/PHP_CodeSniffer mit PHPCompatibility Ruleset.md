@@ -15,7 +15,7 @@
 </ul>
 <h2>Angewendet auf:</h2>
 <ul>
-  <li>Wordpress 4.2.4 (PHP-Version 5.4) (<a href="https://github.com/WordPress/WordPress/commit/a4279152fcf286da771777580e1da93a626fb11a">https://github.com/WordPress/WordPress/commit/a4279152fcf286da771777580e1da93a626fb11a</a>)</li>
+  <li>WordPress 4.2.4 (PHP-Version 5.4) (<a href="https://github.com/WordPress/WordPress/commit/a4279152fcf286da771777580e1da93a626fb11a">https://github.com/WordPress/WordPress/commit/a4279152fcf286da771777580e1da93a626fb11a</a>)</li>
   <li>
     <span>Wallabag 2.0.0-beta.1 (PHP-Version 5.6) (<a href="https://github.com/wallabag/wallabag/tree/94314e14eeeef7c43365a9fddbece04aec7173e3">https://github.com/wallabag/wallabag/tree/94314e14eeeef7c43365a9fddbece04aec7173e3</a>)</span>
   </li>
@@ -54,7 +54,7 @@
 <h2>
   <ac:inline-comment-marker ac:ref="7e7c74f3-e803-4ee8-9984-f557794ddbb2">Beispieloutput</ac:inline-comment-marker>
 </h2>
-<h3>Wordpress:</h3>
+<h3>WordPress:</h3>
 
 ```php
 FILE: /home/alexander/Code/php-update/wp-docker/wp-root/wp-admin/includes/class-ftp.php

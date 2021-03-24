@@ -14,7 +14,7 @@
 </ul>
 <h2>Angewendet auf:</h2>
 <ul>
-  <li>Wordpress 4.2.4 (PHP-Version 5.4) (<a class="external-link" href="https://github.com/WordPress/WordPress/commit/a4279152fcf286da771777580e1da93a626fb11a" rel="nofollow">https://github.com/WordPress/WordPress/commit/a4279152fcf286da771777580e1da93a626fb11a</a>)</li>
+  <li>WordPress 4.2.4 (PHP-Version 5.4) (<a class="external-link" href="https://github.com/WordPress/WordPress/commit/a4279152fcf286da771777580e1da93a626fb11a" rel="nofollow">https://github.com/WordPress/WordPress/commit/a4279152fcf286da771777580e1da93a626fb11a</a>)</li>
   <li>
     <span>Wallabag 2.0.0-beta.1 (PHP-Version 5.6) (<a href="https://github.com/wallabag/wallabag/tree/94314e14eeeef7c43365a9fddbece04aec7173e3">https://github.com/wallabag/wallabag/tree/94314e14eeeef7c43365a9fddbece04aec7173e3</a>)</span>
   </li>
@@ -40,7 +40,7 @@
   <strong> <span style="color: rgb(255,153,0);">★★</span>☆☆☆ "Amazonsterne"</strong>
 </h3>
 <h2>Beispieloutput</h2>
-<h3>Wordpress:</h3>
+<h3>WordPress:</h3>
 
 ```php
 ➜  WordPress git:(VeryOld) ✗ vendor/phpstan/phpstan/phpstan analyze .            

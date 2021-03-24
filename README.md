@@ -1,6 +1,6 @@
 # modernizeYourPHP
 
-Hier wollen wir Dinge festhalten, die beim Migrieren eines PHP-Projektes auf eine neuere Version helfen können. Darunter:
+Hier halten wir Dinge fest, die beim Migrieren eines PHP-Projektes auf eine neuere Version helfen können. Darunter:
 
 - Good Practices,
 - interessante Tools und
@@ -8,7 +8,7 @@ Hier wollen wir Dinge festhalten, die beim Migrieren eines PHP-Projektes auf ein
 
 ## Beispielprojekt
 
-Zuerst haben wir die Migrationstools an Wordpress ausprobiert. Wir wollten aber ein kleineres, handlicheres Projekt, deshalb sind wir nun zu Wallabag gewechselt.
+Zuerst haben wir die Migrationstools an WordPress ausprobiert. Wir wollten aber ein kleineres, handlicheres Projekt, deshalb sind wir nun zu Wallabag gewechselt.
 Das Beispielprojekt liegt unter [exampleProject](exampleProject)
 
 ### Docker-Setup für PHP-Anwendungen
