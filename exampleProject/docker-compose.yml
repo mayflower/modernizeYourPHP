@@ -11,7 +11,7 @@ services:
     build:
       context: wallabagContainer/
       args:
-        USER_ID: $USER_ID
-        GROUP_ID: $GROUP_ID
+        USER_ID: ${USER_ID:-www-data}
+        GROUP_ID: ${GROUP_ID:-www-data}
     volumes:
       - ".:/var/www/html"
