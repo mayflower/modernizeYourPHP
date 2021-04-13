@@ -21,10 +21,10 @@
 <ul>
   <li>
     Alle Inspections, die nach "deprecated" oder "migrations" o.ä. klangen, sowohl aus EA Extended, als auch aus IntelliJ selbst<br/>
-
+    
   </li>
   <li>
-    Dafür wurde ein Inspections-Profil angelegt: [Php Migrations Only.xml](Php Migrations Only.xml) 
+    Dafür wurde ein Inspections-Profil angelegt: <a href="Php Migrations Only.xml">Php Migrations Only.xml</a> 
   </li>
 </ul>
 <h2>Erfahrungen:</h2>
