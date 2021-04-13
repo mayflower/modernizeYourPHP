@@ -23,6 +23,7 @@ Hier eine Auswahl von Tools und unsere Bewertung dazu:
 - [PHP_CodeSniffer mit PHPCompatibility Ruleset](docs/tool-bewertungen/PHP_CodeSniffer%20mit%20PHPCompatibility%20Ruleset.md)
 - [PHPStan mit Deprecation Ruleset](docs/tool-bewertungen/PHPStan%20mit%20Deprecation%20Ruleset.md)
 - [PhpDeprecationDetector](docs/tool-bewertungen/PhpDeprecationDetector.md)
+- [Php Inspections (EA Extended)](docs/tool-bewertungen/Php_Inspections_(EA_Extended).md)
 
 ### Out of Scope
 
